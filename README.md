@@ -6,6 +6,7 @@ It loads an official MultiPolygon GeoJSON of Iran and performs a
 point-in-polygon check using **Shapely**.
 
 یک کتابخانه پایتون سبک است که بررسی می‌کند آیا یک نقطه جغرافیایی (عرض جغرافیایی، طول جغرافیایی) در داخل مرزهای **ایران** قرار دارد یا خیر.
+<br>
 این کتابخانه یک GeoJSON رسمی چندضلعی از ایران را بارگذاری کرده و
 بررسی نقطه در چندضلعی را با استفاده از **Shapely** انجام می‌دهد.
 
