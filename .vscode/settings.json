@@ -1,0 +1,36 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always" // changed from "explicit" to true for auto-fix
+  },
+  "editor.formatOnSave": true,
+  "editor.fontSize": 18,
+  "debug.console.fontSize": 18,
+  "chat.editor.fontSize": 18,
+  "markdown.preview.fontSize": 18,
+  "tailwindCSS.rootFontSize": 18,
+  "editor.minimap.sectionHeaderFontSize": 12,
+  "window.zoomLevel": 2,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "always"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "chat.mcp.discovery.enabled": {
+    "claude-desktop": true,
+    "windsurf": true,
+    "cursor-global": true,
+    "cursor-workspace": true
+  },
+  "chat.agent.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.workingDirectories": [{ "mode": "auto" }, "web"]
+}

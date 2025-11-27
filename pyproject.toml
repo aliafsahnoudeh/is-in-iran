@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "is-in-iran"
+version = "0.1.0"
+description = "Simple utility to check whether a (lat, lon) point lies inside Iran."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Ali Afsahnoudeh", email = "aliafsah1988@gmail.com" }
+]
+keywords = ["geojson", "iran", "geospatial", "point-in-polygon"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "shapely>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/aliafsahnoudeh/is-in-iran"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"is_in_iran" = ["data/iran.geojson"]
