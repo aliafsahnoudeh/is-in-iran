@@ -1,6 +1,6 @@
 # is-in-iran
 
-A lightweight Python library that checks whether a given geographic poin (latitude, longitude) lies inside the borders of **Iran**.
+A lightweight Python library that checks whether a given geographic point (latitude, longitude) lies inside the borders of **Iran**.
 
 It loads an official MultiPolygon GeoJSON of Iran and performs a  
 point-in-polygon check using **Shapely**.
